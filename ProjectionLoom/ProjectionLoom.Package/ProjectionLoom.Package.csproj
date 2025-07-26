@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>RubiconSolutions.ProjectionLoom</PackageId>
     <Title>ProjectionLoom - Powerful Object Mapper</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Afig Jabbarli</Authors>
     <Company>Rubicon Solutions</Company>
     <Product>ProjectionLoom.Package</Product>
@@ -15,10 +15,30 @@ Utilizing reflection and optimized caching, it provides seamless mapping capabil
 Ideal for .NET developers who want an easy-to-use, flexible, and extensible mapper without the overhead of heavy dependencies.</Description>
     <Copyright>© 2025 Rubicon Solutions. All rights reserved.</Copyright>
     <PackageIcon>Логотип ProjectionLoom от Rubicon.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>RubiconSolutions.ProjectionLoom.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReleaseNotes>ProjectionLoom 1.0.1 introduces a powerful reflection-based object mapping engine designed to simplify type-to-type data transformation in .NET applications. 
+
+Key updates in this release include:
+- Implementation of the Map&amp;lt;TSource, TDestination&amp;gt; method for seamless object conversion.
+- Support for list and collection mapping with MapList&amp;lt;TSource, TDestination&amp;gt;.
+- Significant performance optimizations for mapping complex and nested objects.
+- Reduced memory usage and improved reflection handling for faster execution.
+
+This is the first stable version of ProjectionLoom, providing a lightweight and flexible solution for developers who need efficient mapping without complex configuration.</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/afigjabbarli-tech/ProjectionLoom.Nuget</RepositoryUrl>
+    <PackageTags>mapper mapping object-mapper projection reflection .NET C# DTO</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\Логотип ProjectionLoom от Rubicon.png">
+    <None Include="..\..\..\RubiconSolutions.ProjectionLoom.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\Логотип ProjectionLoom от Rubicon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
