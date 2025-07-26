@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>RubiconSolutions.ProjectionLoom</PackageId>
+    <Title>ProjectionLoom - Powerful Object Mapper</Title>
+    <Version>1.0.0</Version>
+    <Authors>Afig Jabbarli</Authors>
+    <Company>Rubicon Solutions</Company>
+    <Product>ProjectionLoom.Package</Product>
+    <Description>ProjectionLoom is a lightweight, high-performance object mapping library designed to simplify and accelerate data projection between different object models.
+Utilizing reflection and optimized caching, it provides seamless mapping capabilities for complex types with minimal configuration.
+Ideal for .NET developers who want an easy-to-use, flexible, and extensible mapper without the overhead of heavy dependencies.</Description>
+    <Copyright>© 2025 Rubicon Solutions. All rights reserved.</Copyright>
+    <PackageIcon>Логотип ProjectionLoom от Rubicon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Логотип ProjectionLoom от Rubicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
